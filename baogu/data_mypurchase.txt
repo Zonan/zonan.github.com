@@ -1,0 +1,130 @@
+//交易中
+str={
+	tittle:[{
+		order_time:2015-08-08 08:08:08,
+		purchase:123456789012345,
+		cto_name:河北吉杰太阳能科技有限公司,
+		pay:12,000.00,
+		state:交易中
+	}],
+	content:[{
+		src:'img/tui.jpg',
+		message:'各种淀粉各种牛奶各种偶吧在售各种淀粉各种牛奶各种偶吧在售在售',
+		num:12300公斤,
+		price:￥11,500,00.00,
+	}],
+	aside:[{
+		deadLine:截止时间:2015-08-06 22:10:10,
+		btn1:立即付款,
+		btn2:关闭交易,
+		btn3:查看详情
+	}]
+}
+
+//待付款
+str={
+	tittle:[{
+		order_time:2015-08-08 08:08:08,
+		purchase:123456789012345,
+		cto_name:河北吉杰太阳能科技有限公司,
+		pay:12,000.00,
+		state:待付款
+	}],
+	content:[{
+		src:'img/tui.jpg',
+		message:'各种淀粉各种牛奶各种偶吧在售各种淀粉各种牛奶各种偶吧在售在售',
+		num:12300公斤,
+		price:￥11,500,00.00,
+	}],
+	aside:[{
+		deadLine:截止时间:2015-08-06 22:10:10,
+		btn1:立即付款,
+		btn2:关闭交易,
+		btn3:查看详情
+	}]
+}
+
+//待发货
+str={
+	tittle:[{
+		order_time:2015-08-08 08:08:08,
+		purchase:123456789012345,
+		cto_name:河北吉杰太阳能科技有限公司,
+		pay:12,000.00,
+		state:待发货
+	}],
+	content:[{
+		src:'img/tui.jpg',
+		message:'各种淀粉各种牛奶各种偶吧在售各种淀粉各种牛奶各种偶吧在售在售',
+		num:12300公斤,
+		price:￥11,500,00.00,
+	}],
+	aside:[{
+		btn1:提醒卖家发货,
+		btn2:申请退款,
+		btn3:查看详情
+	}]
+}
+
+//待收货
+str={
+	tittle:[{
+		order_time:2015-08-08 08:08:08,
+		purchase:123456789012345,
+		cto_name:河北吉杰太阳能科技有限公司,
+		pay:12,000.00,
+		state:待收货
+	}],
+	content:[{
+		src:'img/tui.jpg',
+		message:'各种淀粉各种牛奶各种偶吧在售各种淀粉各种牛奶各种偶吧在售在售',
+		num:12300公斤,
+		price:￥11,500,00.00,
+	}],
+	aside:[{
+		deadLine:截止时间:2015-08-06 22:10:10,
+		btn1:确认收货,
+		btn2:查看详情
+	}]
+}
+
+//交易成功
+str={
+	tittle:[{
+		order_time:2015-08-08 08:08:08,
+		purchase:123456789012345,
+		cto_name:河北吉杰太阳能科技有限公司,
+		pay:12,000.00,
+		state:交易成功
+	}],
+	content:[{
+		src:'img/tui.jpg',
+		message:'各种淀粉各种牛奶各种偶吧在售各种淀粉各种牛奶各种偶吧在售在售',
+		num:12300公斤,
+		price:￥11,500,00.00,
+	}],
+	aside:[{
+		btn1:再次购买,
+		btn2:查看详情
+	}]
+}
+
+//交易关闭
+str={
+	tittle:[{
+		order_time:2015-08-08 08:08:08,
+		purchase:123456789012345,
+		cto_name:河北吉杰太阳能科技有限公司,
+		pay:12,000.00,
+		state:交易关闭
+	}],
+	content:[{
+		src:'img/tui.jpg',
+		message:'各种淀粉各种牛奶各种偶吧在售各种淀粉各种牛奶各种偶吧在售在售',
+		num:12300公斤,
+		price:￥11,500,00.00,
+	}],
+	aside:[{
+		btn1:再次购买,
+	}]
+}

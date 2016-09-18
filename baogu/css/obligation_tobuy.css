@@ -1,0 +1,229 @@
+/*采购单标题*/
+.head{
+    background: #fff;
+    height:37px;
+	border-bottom:2px dotted #f3f3f3;
+}
+.hd-in{
+	width:1000px;
+	margin:0 auto; 
+}
+.hd-l{
+    line-height: 37px;
+}
+.hd-l i{
+    border-left:1px solid #ccc;
+    height:17px;
+    margin:0 15px;
+}
+.hd-l a{
+    color:#006697;
+}
+.hd-r li{
+    float:left;
+    margin-left:40px;
+    line-height:37px;
+}
+.hd-r li a{
+    float:left;
+}
+.hd-r li b{
+    width:11px;
+    height:6px;
+    background: url("../img/bg2.png");
+    float:left;
+    margin-top: 17px;
+    margin-left: 4px;
+}
+.hd-r li span{
+    float: left;
+    background: url("../img/bg1.png");
+    width:16px;
+    height:16px;
+    margin-top: 11px;
+    margin-right: 4px;
+}
+.hd-r .bg1{
+    background: url("../img/bg3.png") no-repeat;
+}
+.hd-r strong{
+    color:#cc0000;
+    margin-left:5px;
+}
+
+/*logo nav*/
+.nav{
+	width:100%;
+	 background:#fff;
+	 min-width:1000px;
+    border-bottom:2px solid #2082b3;	
+}
+.nav_in{
+  height:56px; 
+  width:1000px; 
+  margin:0 auto;
+  padding-top:24px;
+}
+.nav_in h1{
+	 background:url(../img/logo.png) no-repeat;
+	 width:94px;
+	 height:38px;
+	 text-indent:-10000px;
+}
+.nav_in p{
+	 font-size:24px;
+	 margin-left:10px; 
+}
+.nav_il{
+	width:505px;
+	height:29px;
+	background:#f0efef;
+	border-radius:17px;
+	padding:3px 10px;
+}
+.nav_il a{
+	float:left;
+	text-align:center;
+	line-height:29px;
+	font-size:12px;
+	width:163px; 
+	height:29px; 
+	border-radius:14px;
+	margin-right:5px;
+}
+.nav .active{
+	background:#2c8dbd;
+	color:#fff;
+}
+
+/*采购单标题*/
+.obl{
+	height:61px;
+}
+.obl_in h1{
+	line-height:60px;
+	font-size:20px;
+	color:#333;
+}
+
+/*采购单内容*/
+.obl_con{
+	background:#fff;
+	width:1000px;
+}
+.obl_con li{
+	width:900px;
+	height:40px;
+	border-bottom:1px solid #e2e2e2;
+	margin-left:50px;
+	line-height:40px;
+	overflow: hidden;	
+}
+.obl_con li span{
+	float:left;
+}
+.obl_con li .first{
+	width:64px;
+	padding-left:16px;
+}
+.obl_con li .sec{
+	margin-left:30px;
+}
+.obl_con li .third{
+	margin-left:250px;
+}
+.obl_con li .last{
+	margin-left:30px;
+	color:#cc0000;
+	font-size: 14px;
+}
+.obl_con li .first1{
+	width:50px;
+	padding-left:30px;
+}
+.obl_con li .third1{
+	margin-left:380px;
+}
+.obl_con li .last1{
+	color:#666;
+}
+
+/*待付款商品-表单*/
+.obl_goods{
+	background:#fff;
+	padding-bottom:72px;
+}
+.hap2{
+	font-size:20px; 
+	font-weight:normal;
+	background:#fff;
+	padding-top:60px;
+	width:935px;
+	padding-left:65px;
+}
+.min_inz{
+	background:#fff;
+	width:900px;
+	margin-left:50px;
+}
+.min_inz th, .min_inz tr, .min_inz td{
+	height:50px;
+	border:1px solid #f7f7ff;
+	padding:0 20px;
+}
+.min_inz .goodsname{
+	text-align:left;
+}
+.min_inz .w449{
+	width:449px;
+	color:#4181a7;
+	text-align:left;
+}
+.min_inz .thl, .thl th{
+	border:none;
+}
+.min_inz td{
+	width:165px;
+	text-align:center;
+	color:#666;
+}
+
+.total{
+	color:#666;
+	line-height:40px;
+}
+
+/*底部*/
+.foot{ 
+	padding-top:20px;
+	border-top:1px solid #dddbdc;
+	background:#fff;
+	margin-top:28px;
+	padding-bottom: 25px;
+}
+.foot p{
+	text-align:center;
+	margin:0 auto;
+	line-height:38px;
+	color:#666;
+}
+.foot p a{ 
+    padding-right:5px; 
+}
+
+.foot .as{
+	background:url(../img/bg18.png) no-repeat;
+	width:33px; 
+	height:39px; 
+	display:inline-block;
+	margin-left:15px;
+}
+.bop{
+	width:500px;
+	margin:0 auto;
+	line-height:38px;
+	color:#666;
+}
+.foot .police{
+	margin-left:40px;
+}

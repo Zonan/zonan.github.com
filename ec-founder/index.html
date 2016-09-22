@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京方正数码有限公司</title>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+<script src="js/jq.js"></script>
+<script type="text/javascript">
+$(function(){
+		//图片轮转
+	$("#page1 a").first().addClass("se");
+	var j=0;
+	setInterval(function(){
+		j++;
+		if(j==5)
+		{
+			$("#page1 a").first().addClass("se").end().last().removeClass("se");
+			$("#imgBox1 img").first().clone().appendTo($("#imgBox1"));
+			$("#imgBox1").animate({left:"-"+(j*1513)+"px"},1,function(){
+				$("#imgBox1 img").last().remove();
+				$("#imgBox1").css("left","0px");
+				j=0;
+			});
+		}
+		else
+		{
+			$("#page1 a").eq(j).mouseover();	
+		}
+	},4000);
+
+	$(function(){
+		$("#page1 a").each(function(i){
+			$(this).mouseover(function(){
+				j=i;
+				$("#page1 a").filter(".se").removeClass("se");
+				$(this).addClass("se");
+				$("#imgBox1").animate({left:"-"+(i*1513)+"px"},300);
+			});
+		});
+	});
+});
+</script>
+</head>
+
+<body>
+	<div class="top">
+    	<div class="top_c">
+        	<a href="index.html"><img src="images/logo.jpg" alt="" /></a>
+        </div>
+    </div>
+    <div class="nav">
+    	<div class="nav_c">
+        	<ul>
+            	<li><a href="index.html">首页</a></li>
+                <li><a class="hide" href="jieShao.html">公司介绍</a>
+                    <ul>
+                       <li><a href="#3">公司概述</a></li>
+                       <li><a href="#3">企业文化</a></li>
+                       <li><a href="#3">诚聘英才</a></li>
+                    </ul>
+                </li>
+                <li><a class="hide" href="project.html">产业结构</a>
+                	<ul>
+                    	<li><a href="#3">制造行业</a></li>
+                        <li><a href="#3">金融行业</a></li>
+                        <li><a href="#3">电信行业</a></li>
+                        <li><a href="#3">虚拟化</a></li>
+                        <li><a href="#3">物联网</a></li>
+                        <li><a href="#3">能源行业</a></li>
+                        <li><a href="#3">医疗行业</a></li>
+                    </ul>
+                </li>
+                <li><a class="hide" href="news_list.html">新闻动态</a>
+                	<ul>
+                       <li><a href="#3">公司新闻</a></li>
+                    </ul>
+                </li>
+                <li><a class="hide" href="contact_us.html">联系我们</a></li>
+            </ul>
+            <select onchange="window.open(this.options[this.selectedIndex].value)" name="select" class="inc_link">
+                <option selected="">└家族网站链接</option>
+                <option value="http://www.founder.com/">　├方正集团</option>
+                <option value="http://www.pkurg.com/">　├北大资源集团</option>
+                <option value="http://www.founderit.com/">　├方正信息产业集团</option>
+            </select>
+        </div>
+    </div>
+    <div id="box1">
+		<div id="imgBox1">
+			<a href="###"><img src="images/index_banner.jpg" alt=""></a>
+			<a href="###"><img src="images/index_banner.jpg" alt=""></a>
+			<a href="###"><img src="images/index_banner.jpg" alt=""></a>
+            <a href="###"><img src="images/index_banner.jpg" alt=""></a>
+		</div>
+		<div id="page1">
+			<a href="" class="se"></a>
+			<a href="" class=""></a>
+			<a href="" class=""></a>
+            <a href="" class=""></a>
+		</div>
+	</div>
+    <div class="top2">
+    	<div class="top2_c">
+        	<img src="images/index_word.jpg" alt="" />
+            <ul>
+            	<li>
+                	<dl>
+                    	<dt><a href="#3"><img src="images/yl.jpg" alt="" /></a></dt>
+                        <dd><a href="#3">医&nbsp;&nbsp;疗</a></dd>
+                    </dl>
+                </li>
+                <li>
+                	<dl>
+                    	<dt><a href="#3"><img src="images/ny.jpg" alt="" /></a></dt>
+                        <dd><a href="#3">能&nbsp;&nbsp;源</a></dd>
+                    </dl>
+                </li>
+                <li>
+                	<dl>
+                    	<dt><a href="#3"><img src="images/zz.jpg" alt="" /></a></dt>
+                        <dd><a href="#3">制&nbsp;&nbsp;造</a></dd>
+                    </dl>
+                </li>
+                <li>
+                	<dl>
+                    	<dt><a href="#3"><img src="images/jr.jpg" alt="" /></a></dt>
+                        <dd><a href="#3">金&nbsp;&nbsp;融</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="index_main">
+    	<div class="i_m_left">
+        	<h2>新闻动态</h2>
+            <ul>
+            	<li>
+                	<dl>
+                    	<dt><a href="#3"><img src="images/index_news_pic1.jpg" alt="" /></a></dt>
+                        <dd><a href="#3">方正国际荣获地理信息行业大奖</a></dd>
+                        <dd>2013-10-12</dd>
+                    </dl>
+                </li>
+                <li>
+                	<dl>
+                    	<dt><a href="#3"><img src="images/index_news_pic2.jpg" alt="" /></a></dt>
+                        <dd><a href="#3">方正国际荣获地理信息行业大奖</a></dd>
+                        <dd>2013-10-12</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="i_m_center">
+        	<h2>一站式解决方案</h2>
+            <ul>
+            	<li>
+                	<dl>
+                    	<dt><a href="#3"><img src="images/index_news_pic3.jpg" alt="" /></a></dt>
+                        <dd><h3>金融业务</h3></dd>
+                        <dd>方正国际荣获地理信息行业大奖方正国际荣获地理信息行业大奖</dd>
+                    </dl>
+                </li>
+                <li>
+                	<dl>
+                    	<dt><a href="#3"><img src="images/index_news_pic4.jpg" alt="" /></a></dt>
+                        <dd><h3>医疗行业</h3></dd>
+                        <dd>方正国际荣获地理信息行业大奖方正国际荣获地理信息行业大奖</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="i_m_right">
+        	<a href="#3"><img src="images/index_news_pic5.jpg" alt="" /></a>
+            <a href="#3" style="display:block; margin-top:10px;"><img src="images/index_news_pic6.jpg" alt="" /></a>
+        </div>
+    </div>
+    <div class="foot">
+    	<p>
+        	<a href="#3">法律声明</a>|
+            <a href="#3">网站地图</a>|
+            <a href="#3">联系我们</a>
+        </p>
+        <span>Copyright&copy;All&nbsp;&nbsp;Rights&nbsp;&nbsp;Reserved&nbsp;&nbsp;京ICP备XXXXXX号&nbsp;&nbsp;京公网安备XXXXXX号</span>
+    </div>
+</body>
+</html>

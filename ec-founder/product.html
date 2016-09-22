@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>北京方正数码有限公司</title>
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+<script src="js/jq.js"></script>
+<script>
+$(function(){
+	$(".white_down").hide();
+	$(".white_down2").hide();
+	$(".white_bk").click(function(){
+		$(".white_down").show();
+	})
+	$(".cancel").click(function(){
+		$(".white_down").hide();
+	})
+	$(".submission").click(function(){
+		$(".white_down").hide();
+		$(".white_down2").show();
+	})
+})
+</script>
+</head>
+
+<body>
+	<div class="white_down">
+    	<form>
+        	<h2>您的信息<font style="font-size:12px; font-weight:normal; color:#e65818;">（*为必填信息）</font>：</h2>
+        	<div style="width:100%; height:20px; margin-top:16px;"><p>姓名<font color="#e91c21">*</font>：</p><input type="text" /></div>
+            <div style="width:100%; height:20px; margin-top:16px;"><p>电子邮件<font color="#e91c21">*</font>：</p><input type="text" /></div>
+            <div style="width:100%; height:20px; margin-top:16px;"><p>公司名称<font color="#e91c21">*</font>：</p><input type="text" /></div>
+            <div style="width:100%; height:20px; margin-top:16px;"><p>公司电话<font color="#e91c21">*</font>：</p><input type="text" /></div>
+            <div style="width:100%; height:20px; margin-top:16px;"><p>手机<font color="#e91c21">*</font>：</p><input type="text" /></div>
+            <div style="width:100%; height:74px; margin-top:16px;"><dd>您想了解的问题是：</dd><textarea></textarea></div>
+            <input type="button" class="submission" />
+            <input type="button" class="cancel" />
+        </form>
+    </div>
+    <div class="white_down2">
+    	<p class="thank">感谢您提交的客户信息，请点击按钮下载资料！</p>
+        <input type="button" class="down" />
+    </div>
+	<div class="top">
+    	<div class="top_c">
+        	<a href="index.html"><img src="images/logo.jpg" alt="" /></a>
+        </div>
+    </div>
+    <div class="nav">
+    	<div class="nav_c">
+        	<ul>
+            	<li><a href="index.html">首页</a></li>
+                <li><a class="hide" href="jieShao.html">公司介绍</a>
+                    <ul>
+                       <li><a href="#3">公司概述</a></li>
+                       <li><a href="#3">企业文化</a></li>
+                       <li><a href="#3">诚聘英才</a></li>
+                    </ul>
+                </li>
+                <li><a class="hide" href="project.html">产业结构</a>
+                	<ul>
+                    	<li><a href="#3">制造行业</a></li>
+                        <li><a href="#3">金融行业</a></li>
+                        <li><a href="#3">电信行业</a></li>
+                        <li><a href="#3">虚拟化</a></li>
+                        <li><a href="#3">物联网</a></li>
+                        <li><a href="#3">能源行业</a></li>
+                        <li><a href="#3">医疗行业</a></li>
+                    </ul>
+                </li>
+                <li><a class="hide" href="news_list.html">新闻动态</a>
+                	<ul>
+                       <li><a href="#3">公司新闻</a></li>
+                    </ul>
+                </li>
+                <li><a class="hide" href="contact_us.html">联系我们</a></li>
+            </ul>
+            <select onchange="window.open(this.options[this.selectedIndex].value)" name="select" class="inc_link">
+                <option selected="">└家族网站链接</option>
+                <option value="http://www.founder.com/">　├方正集团</option>
+                <option value="http://www.pkurg.com/">　├北大资源集团</option>
+                <option value="http://www.founderit.com/">　├方正信息产业集团</option>
+            </select>
+        </div>
+    </div>
+    <div class="banner">
+    	<img src="images/banner.jpg" alt="" />
+    </div>
+    <div class="weiZhi">
+    	您的位置：<a href="#3">首页</a>&gt;&gt;<a href="#3">新闻动态</a>
+    </div>
+    <table class="main" cellpadding="0" cellspacing="0">
+    	<tr>
+        	<td class="left" valign="top">
+            	<h2>产业架构</h2>
+                <ul>
+                	<li><a class="se" href="#3">制造</a></li>
+                    <li><a href="#3">金融</a>
+                    	<ul>
+                        	<li><a href="#3">信贷风险</a></li>
+                            <li><a href="#3">信贷业务</a></li>
+                            <li><a href="#3">统一沟通平台</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#3">物联网</a></li>
+                    <li><a href="#3">电信</a></li>
+                    <li><a href="#3">能源</a></li>
+                    <li><a href="#3">虚拟化</a></li>
+                    <li><a href="#3">医疗</a></li>
+                </ul>
+            </td>
+            <td class="right" valign="top">
+            	<div class="right_title2">
+                	<h2>方正银行信贷风险预警系统</h2>
+                    <a class="white_bk" href="#3"><img src="images/white_book.jpg" alt="" /></a>
+                </div>
+                <div class="content">
+                	<p>文章内容文章内容文章内容文章内容文章内容文章内容文章内容文章内容</p>
+                    <img src="images/cc.jpg" alt="" />
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="foot">
+    	<p>
+        	<a href="#3">法律声明</a>|
+            <a href="#3">网站地图</a>|
+            <a href="#3">联系我们</a>
+        </p>
+        <span>Copyright&copy;All&nbsp;&nbsp;Rights&nbsp;&nbsp;Reserved&nbsp;&nbsp;京ICP备XXXXXX号&nbsp;&nbsp;京公网安备XXXXXX号</span>
+    </div>
+</body>
+</html>
